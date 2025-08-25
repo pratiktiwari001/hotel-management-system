@@ -119,13 +119,12 @@ Developed by **Pratik Prakash Tiwari**.
 
 ---
 
-## 📜 License  
-
-This project is intended for **educational purposes only**.  
-You are free to clone, modify, and learn from the code, but not allowed to use it for commercial purposes without permission. 
+##  License  
+**Educational Purposes Only:** You are free to clone, modify, and learn from the code, but **not allowed to use it for commercial purposes** without permission.
 
 ---
 
-## 👨‍💻 Author
+##  Author  
+**Pratik Prakash Tiwari**  
+[GitHub Profile](https://github.com/pratiktiwari001)
 
-Pratik Prakash Tiwari
