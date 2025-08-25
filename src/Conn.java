@@ -12,7 +12,7 @@ public class Conn {
         // 5) closing connections
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");  // step 1
-            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotelmanagementsystem","root","Pratik@1210");  // step 2
+            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotelmanagementsystem","root","mysql_password");  // step 2
             s = c.createStatement();  // Step 3
             
         } catch (Exception e) {
