@@ -1,40 +1,31 @@
-# ==========================
-# Custom Gitignore for Hotel Management System
-# ==========================
-
-# VS Code settings
+# VS Code
 .vscode/
 
-# Compiled Java class files
+# Java build files
 bin/
 *.class
 
 # Logs
 *.log
 
-# OS-specific files
+# OS-specific
 .DS_Store
 Thumbs.db
 
-# Backup / temp files
-*.tmp
-*.swp
-*.bak
-*~
-
-# IDE specific files (Eclipse / IntelliJ)
-*.iml
+# IDE-specific
 .idea/
-.project
+*.iml
 .classpath
+.project
 .settings/
 
-# Ignore packaged archives (wars, ears, zips, etc.)
+# Archives
 *.war
 *.ear
 *.zip
 *.tar.gz
 *.rar
 
-# BUT keep all JAR files (important for your project libs)
+# Keep JARs
 !*.jar
+
