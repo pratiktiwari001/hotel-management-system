@@ -126,5 +126,5 @@ Developed by **Pratik Prakash Tiwari**.
 
 ##  Author  
 **Pratik Prakash Tiwari**  
-[GitHub Profile](https://github.com/pratiktiwari001)
+🔗 [LinkedIn](https://www.linkedin.com/in/tiwaripratik222) | [GitHub](https://github.com/pratiktiwari001) 
 
