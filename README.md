@@ -94,7 +94,7 @@ Developed by **Pratik Prakash Tiwari**.
 
 
 2. Create the required tables:
-
+   ```
     create table login(username varchar(25), password varchar(25));
 
     create table employee(name varchar(25), age varchar(10), gender varchar(15), job varchar(30), salary varchar(15), phone varchar(10), email varchar(40), adhar varchar(12));
@@ -108,14 +108,16 @@ Developed by **Pratik Prakash Tiwari**.
     create table department(Department_name varchar(30), Budget varchar(20), No_of_Members varchar(10));
     insert into department values('Reception','200000','4');
     insert into department values('Cleaning Staffs','400000','20');
-
+   
 
 3. Insert a default admin user for login:
-    insert into login values('admin','12345');
+   ```
+   insert into login values('admin','12345');
 
 
-4. Update database connection in Conn.java:
-    c = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotelmanagementsystem","root","MySQL Password");
+5. Update database connection in Conn.java:
+   ```
+   c = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotelmanagementsystem","root","MySQL Password");
 
 ---
 
