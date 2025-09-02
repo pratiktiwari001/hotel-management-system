@@ -89,11 +89,11 @@ Developed by **Pratik Prakash Tiwari**.
 ## 🗄️ Database Setup
 
 1. Create a new database in MySQL:
-    create database hotelmanagementsystem;
+   ```
+   create database hotelmanagementsystem;
     use hotelmanagementsystem;
 
-
-2. Create the required tables:
+3. Create the required tables:
    ```
     create table login(username varchar(25), password varchar(25));
 
@@ -108,17 +108,15 @@ Developed by **Pratik Prakash Tiwari**.
     create table department(Department_name varchar(30), Budget varchar(20), No_of_Members varchar(10));
     insert into department values('Reception','200000','4');
     insert into department values('Cleaning Staffs','400000','20');
-   
 
-3. Insert a default admin user for login:
+4. Insert a default admin user for login:
    ```
    insert into login values('admin','12345');
-
 
 5. Update database connection in Conn.java:
    ```
    c = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotelmanagementsystem","root","MySQL Password");
-
+   
 ---
 
 ##  License  
